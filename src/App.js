@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Menu from './menu/Menu'
 import Home from './sections/Home'
 import Projects from './sections/Projects'
 import Blog from './sections/Blog'
@@ -10,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App row">
-      
+
         <div className="col-md-3">
-          <h1>Menu Will Go Here</h1>
+          <Menu />
         </div>
 
         <div className="col-md-9">

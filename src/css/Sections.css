@@ -1,19 +1,26 @@
 /* Home Section */
 .home{
     background-color: blue;
+    height: 600px;
 }
 
 /* Projects Section */
 .projects{
     background-color: green;
+    height: 600px;
+
 }
 
 /* Blog Section */
 .blog{
     background-color: yellow;
+    height: 600px;
+
 }
 
 /* Contact Section */
 .contact{
     background-color: brown;
+    height: 600px;
+
 }
