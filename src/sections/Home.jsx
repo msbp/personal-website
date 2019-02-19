@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Sections.css'
 
 class Home extends React.Component {
     
@@ -15,7 +16,7 @@ class Home extends React.Component {
      */
     render() {
         return (
-            <div>
+            <div class="home">
                 <h1>This is the home content.</h1>
             </div>
         )

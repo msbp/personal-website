@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Sections.css'
 
 class Blog extends React.Component {
     
@@ -15,7 +16,7 @@ class Blog extends React.Component {
      */
     render() {
         return (
-            <div>
+            <div class="blog">
                 <h1>This is the blog content.</h1>
             </div>
         )

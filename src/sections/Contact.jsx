@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Sections.css'
 
 class Contact extends React.Component {
     
@@ -15,7 +16,7 @@ class Contact extends React.Component {
      */
     render() {
         return (
-            <div>
+            <div class="contact">
                 <h1>This is the contact content.</h1>
             </div>
         )

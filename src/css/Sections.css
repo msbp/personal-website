@@ -1,0 +1,19 @@
+/* Home Section */
+.home{
+    background-color: blue;
+}
+
+/* Projects Section */
+.projects{
+    background-color: green;
+}
+
+/* Blog Section */
+.blog{
+    background-color: yellow;
+}
+
+/* Contact Section */
+.contact{
+    background-color: brown;
+}

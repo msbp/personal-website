@@ -1,6 +1,7 @@
 import React from 'react'
+import '../css/Sections.css'
 
-class Home extends React.Component {
+class Projects extends React.Component {
     
     /**
      * This is the component's constructor.
@@ -15,11 +16,11 @@ class Home extends React.Component {
      */
     render() {
         return (
-            <div>
+            <div class="projects">
                 <h1>This is the projects content.</h1>
             </div>
         )
     }
 }
 
-export default Home
+export default Projects
