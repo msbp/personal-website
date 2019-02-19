@@ -16,7 +16,7 @@ class Projects extends React.Component {
      */
     render() {
         return (
-            <div class="projects">
+            <div className="projects">
                 <h1>This is the projects content.</h1>
             </div>
         )

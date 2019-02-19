@@ -16,7 +16,7 @@ class Blog extends React.Component {
      */
     render() {
         return (
-            <div class="blog">
+            <div className="blog">
                 <h1>This is the blog content.</h1>
             </div>
         )

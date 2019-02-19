@@ -16,7 +16,7 @@ class Contact extends React.Component {
      */
     render() {
         return (
-            <div class="contact">
+            <div className="contact">
                 <h1>This is the contact content.</h1>
             </div>
         )

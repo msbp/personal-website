@@ -9,12 +9,18 @@ import Contact from './sections/Contact'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        
-        <Home />
-        <Projects />
-        <Blog />
-        <Contact />
+      <div className="App row">
+      
+        <div className="col-md-3">
+          <h1>Menu Will Go Here</h1>
+        </div>
+
+        <div className="col-md-9">
+          <Home />
+          <Projects />
+          <Blog />
+          <Contact />
+        </div>
 
       </div>
     );
