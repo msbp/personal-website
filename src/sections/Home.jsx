@@ -14,9 +14,20 @@ class Home extends React.Component {
 
     getPhoto() {
         return (
-                <img src={homeContent.profileImage} class="rounded-circle" />
+                <img src={homeContent.profileImage} className="rounded-circle" />
         )
+    }
 
+    getName() {
+        return (
+            <h2>{homeContent.name}</h2>
+        )
+    }
+
+    getBio() {
+        return (
+            <h3>{homeContent.bio}</h3>
+        )
     }
 
     /**
@@ -26,10 +37,19 @@ class Home extends React.Component {
         return (
 
             <div className="home">
-                <h1>This is the home content.</h1>
+
                 <div className="text-center">
                     {this.getPhoto()}
                 </div>
+
+                <div class="text-center">
+                    {this.getName()}
+                </div>
+
+                <div className="text=left">
+                    {this.getBio()}
+                </div>
+
             </div>
 
         )
