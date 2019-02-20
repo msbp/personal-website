@@ -10,19 +10,20 @@ import Contact from './sections/Contact'
 class App extends Component {
   render() {
     return (
-      <div className="App row">
+      <div className="container-fluid no-padding App">
+        <div className="row no-gutter">
+          <div className="col-md-3">
+            <Menu />
+          </div>
 
-        <div className="col-md-3">
-          <Menu />
+          <div className="col-md-9">
+            <Home />
+            <Projects />
+            <Blog />
+            <Contact />
+          </div>
+
         </div>
-
-        <div className="col-md-9">
-          <Home />
-          <Projects />
-          <Blog />
-          <Contact />
-        </div>
-
       </div>
     );
   }

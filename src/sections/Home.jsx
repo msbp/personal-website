@@ -14,9 +14,7 @@ class Home extends React.Component {
 
     getPhoto() {
         return (
-            <span>
-                <img src={homeContent.profileImage} />
-            </span>
+                <img src={homeContent.profileImage} class="rounded-circle" />
         )
 
     }
@@ -26,10 +24,14 @@ class Home extends React.Component {
      */
     render() {
         return (
+
             <div className="home">
                 <h1>This is the home content.</h1>
-                {this.getPhoto()}
+                <div className="text-center">
+                    {this.getPhoto()}
+                </div>
             </div>
+
         )
     }
 }

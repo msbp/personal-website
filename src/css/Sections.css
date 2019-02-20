@@ -3,6 +3,9 @@
     background-color: blue;
     height: 600px;
 }
+.profileImage {
+    border-radius: 50%;
+}
 
 /* Projects Section */
 .projects{
