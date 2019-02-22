@@ -4,7 +4,22 @@
     height: 600px;
 }
 .profileImage {
-    border-radius: 50%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.name {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.bio {
+    margin-top: 20px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 500;
 }
 
 /* Projects Section */

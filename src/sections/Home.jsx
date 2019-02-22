@@ -14,19 +14,19 @@ class Home extends React.Component {
 
     getPhoto() {
         return (
-                <img src={homeContent.profileImage} className="rounded-circle" />
+                <img src={homeContent.profileImage} className="rounded-circle profileImage" />
         )
     }
 
     getName() {
         return (
-            <h2>{homeContent.name}</h2>
+            <h2 class="name">{homeContent.name}</h2>
         )
     }
 
     getBio() {
         return (
-            <h3>{homeContent.bio}</h3>
+            <div class="bio">{homeContent.bio}</div>
         )
     }
 
