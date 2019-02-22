@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Sections.css'
+const projectContent = require('../config/content.json').sections.projects
 
 class Projects extends React.Component {
     
@@ -11,13 +12,19 @@ class Projects extends React.Component {
         super(props)
     }
 
+    getTitle() {
+        return (
+            <div className="sectionHeader">{projectContent.title}</div>
+        )
+    }
+
     /**
      * Render method.
      */
     render() {
         return (
             <div className="projects">
-                <h1>This is the projects content.</h1>
+                {this.getTitle()}
             </div>
         )
     }

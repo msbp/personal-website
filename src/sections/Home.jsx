@@ -20,13 +20,13 @@ class Home extends React.Component {
 
     getName() {
         return (
-            <h2 class="name">{homeContent.name}</h2>
+            <h2 className="name">{homeContent.name}</h2>
         )
     }
 
     getBio() {
         return (
-            <div class="bio">{homeContent.bio}</div>
+            <div className="bio">{homeContent.bio}</div>
         )
     }
 
@@ -42,7 +42,7 @@ class Home extends React.Component {
                     {this.getPhoto()}
                 </div>
 
-                <div class="text-center">
+                <div className="text-center">
                     {this.getName()}
                 </div>
 
