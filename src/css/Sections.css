@@ -5,17 +5,22 @@
     font-weight: 900;
     text-align: center;
 }
+.scrollDownIcon {
+    font-size: 1.5em;
+    margin-top: 18px;
+    color: #cc4e1c;
+}
 
 /* Home Section */
 .home{
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     background-image: url('../images/new_b&w.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
 
     /* WORK ON CENTERING THE IMAGE AND PROPERLY SIZING IT */
     background-position-x: right;
-    min-height: 95vh;
+    min-height: 97vh;
 }
 .profileImage {
     height: 220px;
@@ -41,7 +46,7 @@
 
 /* Projects Section */
 .projects {
-    background-color: green;
+    background-color:rgb(255, 255, 255);
     padding-top: 50px;
     height: 600px;
 }
@@ -54,7 +59,7 @@
 
 /* Blog Section */
 .blog {
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 600px;
 
 }
