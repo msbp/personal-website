@@ -1,0 +1,67 @@
+/* General Classes */
+.sectionHeader {
+    font-family: poppins, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* Home Section */
+.home{
+    padding-bottom: 50px;
+    background-image: url('../images/new_b&w.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    /* WORK ON CENTERING THE IMAGE AND PROPERLY SIZING IT */
+    background-position-x: right;
+    min-height: 95vh;
+}
+.profileImage {
+    height: 220px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.name {
+    font-family: poppins, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.bio {
+    width: 65%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8;
+    color: rgb(100, 100, 100);
+}
+
+/* Projects Section */
+.projects {
+    background-color: green;
+    padding-top: 50px;
+    height: 600px;
+}
+.projectContainer {
+    height: 400px;
+    margin: 5px;
+    display: inline-block;
+    border: solid 2px black;
+}
+
+/* Blog Section */
+.blog {
+    background-color: yellow;
+    height: 600px;
+
+}
+
+/* Contact Section */
+.contact {
+    background-color: brown;
+    height: 600px;
+
+}
