@@ -18,12 +18,25 @@ class Projects extends React.Component {
   }
 
   /**
+   * This is temporary. These will be place holders for now.
+   */
+  getProjects () {
+    return (
+        <div>
+        <div class="projectContainer col-5">Project 1</div>
+        <div class="projectContainer col-5">Project 2</div>
+        </div>
+    )
+  }
+
+  /**
    * Render method.
    */
   render () {
     return (
       <div className='projects'>
         {this.getTitle()}
+        {this.getProjects()}
       </div>
     )
   }

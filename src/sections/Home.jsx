@@ -45,7 +45,7 @@ class Home extends React.Component {
           {this.getName()}
         </div>
 
-        <div className='text=left'>
+        <div className='text-left'>
           {this.getBio()}
         </div>
 
