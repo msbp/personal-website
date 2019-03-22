@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './App.css'
 import Menu from './menu/Menu'
 import Home from './sections/Home'
@@ -16,10 +17,19 @@ class App extends Component {
           </div>
 
           <div className='col-md-9'>
-            <Home />
-            <Projects />
-            <Blog />
-            <Contact />
+            <div />
+            <ScrollableAnchor id='homeSection'>
+              <Home />
+            </ScrollableAnchor>
+            <ScrollableAnchor id='projectSection'>
+              <Projects />
+            </ScrollableAnchor >
+            <ScrollableAnchor id='blogSection'>
+              <Blog id='blog' />
+            </ScrollableAnchor >
+            <ScrollableAnchor id='contactSection'>
+              <Contact id='contact' />
+            </ScrollableAnchor>
           </div>
 
         </div>

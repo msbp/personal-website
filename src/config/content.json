@@ -1,12 +1,34 @@
 {
     "menu": {
+        "navBar": [
+            {
+                "title": "Home",
+                "href": "#homeSection"
+            },
+            {
+                "title": "Projects",
+                "href": "#projectSection"
+            },
+            {
+                "title": "Blog",
+                "href": "#blogSection"
+            },
+            {
+                "title": "Resume",
+                "href": "https://google.com"
+            },
+            {
+                "title": "Contact",
+                "href": "#contactSection"
+            }
+        ]
         
     },
     "sections": {
         "home": {
             "profileImage": "https://msbp.github.io/images/profile.png",
             "name": "Mauricio de Paula",
-            "bio": "Testing the bio section. This will contain information on me such as school, work and hobbies.xTesting the bio section. This will contain information on me such as school, work and hobbies.xTesting the bio section. This will contain information on me such as school, work and hobbies.xTesting the bio section. This will contain information on me such as school, work and hobbies.x",
+            "bio": "Mauricio is a full stack software engineer completing from Vancouver, British Columbia. He is expected to complete his undergraduate studies in Computer Science at the University of Victoria in April 2019. He developed an interest for software development at the age of 15 and has been interested in the area since then.",
             "backgroundImage": ""
         },
         "projects": {
